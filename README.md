@@ -13,13 +13,10 @@ This is a simple console-based e-commerce system designed as part of a Full Stac
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
-- Java 17+
+- Java
 - Object-Oriented Design
-- Interfaces (`IShippable`, `IExpireable`)
-- Console-based interaction
-
 ---
 
 
