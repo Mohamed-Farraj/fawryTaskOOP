@@ -19,7 +19,7 @@ public class customer {
     }
 
     public void withdraw(double value) {
-        if (value > this.balance)
+        if (value < this.balance)
         this.balance -= value;
 
         else
@@ -31,6 +31,11 @@ public class customer {
         this.customerCart.addProduct(product, quantity);
     }
 
+    public Cart getCustomerCart() {
+        return customerCart;
+    }
 
-
+    public double getBalance() {
+        return balance;
+    }
 }
